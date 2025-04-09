@@ -1,0 +1,151 @@
+﻿@page "/PetPage"
+@rendermode InteractiveServer
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "User,Admin")]
+ 
+
+<div>
+    <center><h3>PetPage</h3></center>
+</div>
+
+<div>
+    @if (!string.IsNullOrEmpty(StatusMessage))
+    {
+        <p class="alert alert-info">@StatusMessage</p>
+    }
+</div>
+<div>
+    <label>PetName</label>
+    <input @bind="NewPets.PetName" />
+    <label>PetBreed</label>
+    <input @bind="NewPets.PetBreed"  />
+    <button @onclick="Create_Pet" class="btn-primary">Add</button>
+</div>
+
+<table class="table table-bordered" style="background-color:azure;" >
+    <thead>
+        <tr>
+            <td>PetId</td>
+            <td>PetName</td>
+            <td>PetBreed</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    @foreach (var e in Pet_List)
+    {
+        <tbody>
+            <tr>
+                <td>@e.PetId</td>
+                <td>@e.PetName</td>
+                <td>@e.PetBreed</td>
+                <td>
+                    <button @onclick="()=> Delete_Pet(e.PetId)" class="btn-danger">Delete</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#@($"Update_Pet{e.PetId}")">
+                        Edit
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="@($"Update_Pet{e.PetId}")" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label>PetName</label>
+                                    <input @bind="e.PetName" /><br />
+                                    <label>PetBreed</label>
+                                    <input @bind="e.PetBreed" /> <br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" @onclick="()=> Update_Pet(e.PetId,e.PetName,e.PetBreed)" data-bs-dismiss="modal">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+        </tbody>
+    }
+</table>
+
+@code {
+    public DbConClass DbCon = new DbConClass();
+    public string Search = "";
+    public string StatusMessage { get; set; }
+
+    [Parameter]
+    public int PetId { get; set; }
+    [Parameter]
+    public string PetName { get; set; }
+    [Parameter]
+    public string PetBreed { get; set; }
+
+    public class Pets
+    {
+        public int PetId;
+        public string PetName;
+        public string PetBreed;
+    }
+    public Pets NewPets = new Pets();
+
+    public void Create_Pet()
+    {
+
+        
+        DbCon.connection.Query("Insert_Pet", new
+        {
+            @PetName = NewPets.PetName,
+            @PetBreed = NewPets.PetBreed
+        }, commandType: CommandType.StoredProcedure);
+        Read_Pet();
+        NewPets = new Pets();
+        // StatusMessage = "Add Pet Successfully";
+        // StateHasChanged();  // Refresh the UI
+        // Task.Delay(3000).ContinueWith(t => StatusMessage = "");
+
+    }
+    
+    public void Read_Pet()
+    {
+      
+        
+        Pet_List = DbCon.connection.Query<Pets>
+       ("Read_Pet", new
+       {
+           @PetName = $"%{Search}",
+           @PetBreed = $"%{Search}"
+       }, commandType: CommandType.StoredProcedure);
+    }
+    public void Update_Pet(int PetId, string PetName, string PetBreed)
+    {
+
+        DbCon.connection.Query("Update_Pet", new
+        {
+            @PetId = PetId,
+            @PetName = PetName,
+            @PetBreed = PetBreed
+        }, commandType: CommandType.StoredProcedure);
+        Read_Pet();
+    }
+    public void Delete_Pet(int PetId)
+    {
+
+        DbCon.connection.Query("Delete_Pet", new
+        {
+            @PetId = PetId
+        }, commandType: CommandType.StoredProcedure);
+        Read_Pet();
+        //StatusMessage = "Delete Enrollment Successfully";
+    }
+    public IEnumerable<Pets> Pet_List ;
+    protected override void OnInitialized()
+    {
+        Read_Pet();
+    }
+}

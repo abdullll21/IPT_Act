@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\EXP\\Activity\\Activity1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Activity1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Activity1.9796b07h22.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity1\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity1\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity1\\wwwroot\\imageedit_62_2608573935.f1cb27a519bdb5b6ed34049a5b86e317.webp",
+      "PackagePath": "staticwebassets\\imageedit_62_2608573935.f1cb27a519bdb5b6ed34049a5b86e317.webp"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity1\\wwwroot\\pexels-tirachard-kumtanom-112571-733852.jpg",
+      "PackagePath": "staticwebassets\\pexels-tirachard-kumtanom-112571-733852.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Activity1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Activity1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Activity1.props",
+      "PackagePath": "build\\Activity1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Activity1.props",
+      "PackagePath": "buildMultiTargeting\\Activity1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Activity1.props",
+      "PackagePath": "buildTransitive\\Activity1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

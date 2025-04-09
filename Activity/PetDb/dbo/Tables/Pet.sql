@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Pet]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)

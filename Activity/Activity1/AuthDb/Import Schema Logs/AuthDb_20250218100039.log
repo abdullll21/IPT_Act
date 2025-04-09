@@ -1,0 +1,87 @@
+18/02/2025 6:00:39 pm	This log contains information about the import schema operation into project 'AuthDb' on computer 'LAPTOP-H7L4E8GJ' by user 'HUAWEI'.
+18/02/2025 6:00:40 pm	Import of database schema has started.
+18/02/2025 6:00:47 pm	Gathering database credentials
+18/02/2025 6:00:47 pm	Gathering database options
+18/02/2025 6:00:47 pm	Gathering generic database scoped configuration option
+18/02/2025 6:00:47 pm	Gathering users
+18/02/2025 6:00:47 pm	Gathering roles
+18/02/2025 6:00:47 pm	Gathering application roles
+18/02/2025 6:00:47 pm	Gathering role memberships
+18/02/2025 6:00:47 pm	Gathering filegroups
+18/02/2025 6:00:47 pm	Gathering full-text catalogs
+18/02/2025 6:00:47 pm	Gathering assemblies
+18/02/2025 6:00:47 pm	Gathering certificates
+18/02/2025 6:00:47 pm	Gathering asymmetric keys
+18/02/2025 6:00:47 pm	Gathering symmetric keys
+18/02/2025 6:00:47 pm	Gathering encrypted symmetric keys
+18/02/2025 6:00:47 pm	Gathering schemas
+18/02/2025 6:00:47 pm	Gathering XML schema collections
+18/02/2025 6:00:47 pm	Gathering user-defined data types
+18/02/2025 6:00:47 pm	Gathering user-defined types
+18/02/2025 6:00:47 pm	Gathering table types
+18/02/2025 6:00:47 pm	Gathering unique keys for table types
+18/02/2025 6:00:47 pm	Gathering primary keys for table types
+18/02/2025 6:00:47 pm	Gathering indexes for table types
+18/02/2025 6:00:47 pm	Gathering check constraints for table types
+18/02/2025 6:00:47 pm	Gathering default constraints for table types
+18/02/2025 6:00:47 pm	Gathering partition functions
+18/02/2025 6:00:48 pm	Gathering partition schemes
+18/02/2025 6:00:48 pm	Gathering functions
+18/02/2025 6:00:48 pm	Gathering encrypted functions
+18/02/2025 6:00:48 pm	Gathering aggregates
+18/02/2025 6:00:48 pm	Gathering procedures
+18/02/2025 6:01:13 pm	Gathering encrypted procedures
+18/02/2025 6:01:13 pm	Gathering tables
+18/02/2025 6:01:38 pm	Gathering primary keys
+18/02/2025 6:01:38 pm	Gathering unique constraints
+18/02/2025 6:01:38 pm	Gathering foreign keys
+18/02/2025 6:01:39 pm	Gathering default constraints
+18/02/2025 6:01:39 pm	Gathering check constraints
+18/02/2025 6:01:39 pm	Gathering views
+18/02/2025 6:01:39 pm	Gathering encrypted views
+18/02/2025 6:01:39 pm	Gathering indexes
+18/02/2025 6:01:39 pm	Gathering statistics
+18/02/2025 6:01:39 pm	Gathering full-text index stoplists
+18/02/2025 6:01:39 pm	Gathering search property lists
+18/02/2025 6:01:39 pm	Gathering search properties
+18/02/2025 6:01:39 pm	Gathering full-text indexes
+18/02/2025 6:01:39 pm	Gathering column store indexes
+18/02/2025 6:01:39 pm	Gathering spatial indexes
+18/02/2025 6:01:39 pm	Gathering XML indexes
+18/02/2025 6:01:39 pm	Gathering Selective XML indexes
+18/02/2025 6:01:39 pm	Gathering encrypted triggers
+18/02/2025 6:01:39 pm	Gathering triggers
+18/02/2025 6:01:39 pm	Gathering encrypted and clr ddl triggers
+18/02/2025 6:02:05 pm	Gathering ddl triggers
+18/02/2025 6:02:05 pm	Creating edge constraints
+18/02/2025 6:02:05 pm	Gathering synonyms
+18/02/2025 6:02:05 pm	Gathering defaults
+18/02/2025 6:02:05 pm	Gathering data constraint uddt bindings
+18/02/2025 6:02:05 pm	Gathering rules
+18/02/2025 6:02:05 pm	Gathering data constraint uddt bindings
+18/02/2025 6:02:05 pm	Gathering message types
+18/02/2025 6:02:05 pm	Gathering queues
+18/02/2025 6:02:05 pm	Gathering contracts
+18/02/2025 6:02:05 pm	Gathering services
+18/02/2025 6:02:05 pm	Gathering event notifications
+18/02/2025 6:02:05 pm	Gathering remote service bindings
+18/02/2025 6:02:05 pm	Gathering broker priorities
+18/02/2025 6:02:05 pm	Gathering signatures
+18/02/2025 6:02:05 pm	Gathering compression options
+18/02/2025 6:02:05 pm	Gathering sequence types
+18/02/2025 6:02:05 pm	Gathering security policies
+18/02/2025 6:02:05 pm	Gather column encryption keys
+18/02/2025 6:02:05 pm	Gathering column master keys
+18/02/2025 6:02:05 pm	Gathering external data sources
+18/02/2025 6:02:05 pm	Gathering external file formats
+18/02/2025 6:02:05 pm	Gathering external tables
+18/02/2025 6:02:05 pm	Gathering extended properties
+18/02/2025 6:02:05 pm	Gathering assemblies
+18/02/2025 6:02:05 pm	Gathering credentials
+18/02/2025 6:02:05 pm	Gathering logins
+18/02/2025 6:02:05 pm	Gathering server audits
+18/02/2025 6:02:07 pm	Scanning project for duplicate elements
+18/02/2025 6:02:08 pm	Finished duplicate element processing
+18/02/2025 6:02:08 pm	Finished importing database.
+18/02/2025 6:02:08 pm	A summary of the import was saved to the following location: C:\EXP\Activity\Activity1\AuthDb\Import Schema Logs\AuthDb_20250218100039.log
+18/02/2025 6:02:08 pm	Click Finish to continue...

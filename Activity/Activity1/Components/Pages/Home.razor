@@ -1,0 +1,28 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "User,Admin")]
+
+<div>
+    <h1 class="sk" style="font-family:'Times New Roman', Times, serif; display:flex; justify-content:center; align-items:center; font-size:70px; ">
+        <b> Gail Pets Clinic </b>
+    </h1>
+</div>
+
+<div style="display:flex; justify-content:center; align-items:center; ">
+
+    <img class="img" src="imageedit_62_2608573935.f1cb27a519bdb5b6ed34049a5b86e317.webp" />
+
+</div>
+
+<div style="display:flex; justify-content:center; align-items:center;font-family:'Lucida Calligraphy'; ">
+    <h3> Let's Love our Pets</h3>
+
+</div>
+
+<style>
+    .img {
+        height: 600px;
+        width: 650px;
+        margin-top:50px;
+    }
+</style>

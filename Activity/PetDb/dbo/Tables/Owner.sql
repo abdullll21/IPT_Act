@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Owner]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)

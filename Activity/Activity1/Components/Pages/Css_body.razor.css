@@ -1,0 +1,15 @@
+﻿
+h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    box-shadow: 15px 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

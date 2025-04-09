@@ -1,0 +1,29 @@
+﻿@page "/rise"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.FluentUI.AspNetCore.Components.Extensions
+@attribute [Authorize(Roles = "Admin,User")]
+
+
+<FluentCard>
+    <h1>I MISS U! ;(</h1>
+    <FluentButton Appearance="@Appearance.Accent">Click Me</FluentButton>
+</FluentCard>
+
+<div style="margin-top:50px;">
+    <FluentLabel Typo="Typography.Header" Color="@Color.Warning"> I MISS U :(</FluentLabel>
+    <FluentLabel Typo="Typography.Body" Color="@Color.Disabled"> I MISS U :(</FluentLabel>
+    <FluentLabel Typo="Typography.Body" Color="@Color.Custom" CustomColor="deepskyblue"> I MISS U!  I MISS U!  I MISS U!  I MISS U!  I MISS U!  I MISS U :(</FluentLabel>
+    <FluentLabel Typo="Typography.Body" Style="color: chocolate;">I MISS U! I MISS U! I MISS U! I MISS U! I MISS U! I MISS U! I MISS U! I MISS U! I MISS U! I MISS U :( </FluentLabel>
+    <FluentLabel Typo="Typography.Body" Style="color: burlywood;" Color="@Color.Custom" CustomColor="burlywood"> I MISS U :( <code>I MISS U :(</code> and <code>I MISS U :(</code>, I MISS U :(.</FluentLabel>
+
+</div>
+
+
+
+<div style="margin-top:50px;">
+    <h4>Default</h4>
+    <div style="width: 300px;display: grid; grid-gap: 12px; grid-auto-flow: column;">
+        <FluentProgressRing Min="0" Max="100" Value="75"></FluentProgressRing>
+        <FluentProgressRing></FluentProgressRing>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activity1", "Activity1\Activity1.csproj", "{0069B61D-51A8-49AE-9304-FCEBF22700BE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AuthDb", "Activity1\AuthDb\AuthDb.sqlproj", "{878A7271-2870-451E-89C3-3539C2349318}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Pacaldo_IM_FinalProject", "..\..\IM_IPT_FinalProject Pushed\IM_IPT_FinalProject\Pacaldo_Solution\Pacaldo_IM_FinalProject\Pacaldo_IM_FinalProject.sqlproj", "{32684C77-A1D6-4A30-8376-2DE7289BB12D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0069B61D-51A8-49AE-9304-FCEBF22700BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0069B61D-51A8-49AE-9304-FCEBF22700BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0069B61D-51A8-49AE-9304-FCEBF22700BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0069B61D-51A8-49AE-9304-FCEBF22700BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878A7271-2870-451E-89C3-3539C2349318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878A7271-2870-451E-89C3-3539C2349318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878A7271-2870-451E-89C3-3539C2349318}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{878A7271-2870-451E-89C3-3539C2349318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878A7271-2870-451E-89C3-3539C2349318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878A7271-2870-451E-89C3-3539C2349318}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{32684C77-A1D6-4A30-8376-2DE7289BB12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32684C77-A1D6-4A30-8376-2DE7289BB12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32684C77-A1D6-4A30-8376-2DE7289BB12D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{32684C77-A1D6-4A30-8376-2DE7289BB12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32684C77-A1D6-4A30-8376-2DE7289BB12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32684C77-A1D6-4A30-8376-2DE7289BB12D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA63ECA-C2C1-4938-AECE-06C170EC379E}
+	EndGlobalSection
+EndGlobal

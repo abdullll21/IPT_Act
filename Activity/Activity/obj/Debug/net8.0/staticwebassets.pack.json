@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\EXP\\Activity\\Activity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Activity.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Activity.12xnfriyv8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\EXP\\Activity\\Activity\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Activity.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Activity.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Activity.props",
+      "PackagePath": "build\\Activity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Activity.props",
+      "PackagePath": "buildMultiTargeting\\Activity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Activity.props",
+      "PackagePath": "buildTransitive\\Activity.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

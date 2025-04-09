@@ -1,0 +1,6 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\imageedit_62_2608573935.f1cb27a519bdb5b6ed34049a5b86e317.webp
+wwwroot\pexels-tirachard-kumtanom-112571-733852.jpg

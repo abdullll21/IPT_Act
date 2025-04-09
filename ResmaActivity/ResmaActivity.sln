@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResmaActivity", "ResmaActivity\ResmaActivity.csproj", "{7202992E-A951-4E98-A7E2-165848703E5B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Db_Resma", "..\..\Client Project\Db_Resma\Db_Resma\Db_Resma.sqlproj", "{160524E4-B589-472D-815D-9613D6A8B6A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7202992E-A951-4E98-A7E2-165848703E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7202992E-A951-4E98-A7E2-165848703E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7202992E-A951-4E98-A7E2-165848703E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7202992E-A951-4E98-A7E2-165848703E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160524E4-B589-472D-815D-9613D6A8B6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160524E4-B589-472D-815D-9613D6A8B6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160524E4-B589-472D-815D-9613D6A8B6A3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{160524E4-B589-472D-815D-9613D6A8B6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160524E4-B589-472D-815D-9613D6A8B6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160524E4-B589-472D-815D-9613D6A8B6A3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABC3BDDC-036C-44A6-BE66-C055F2B0689A}
+	EndGlobalSection
+EndGlobal

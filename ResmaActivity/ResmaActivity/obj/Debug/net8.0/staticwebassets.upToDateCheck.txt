@@ -1,0 +1,9 @@
+wwwroot\85801-590014932_small.mp4
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\pic1.jpg
+wwwroot\pic2.jpg
+wwwroot\pic3.jpg
+wwwroot\swiper-init.js

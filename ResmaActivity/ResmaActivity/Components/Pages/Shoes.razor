@@ -1,0 +1,144 @@
+﻿@page "/shoes"
+@using Microsoft.AspNetCore.Authorization
+
+@attribute [Authorize(Roles = "User,Admin")]
+@rendermode InteractiveServer
+<h1>Shoes</h1>
+
+<div>
+    <label>Brand</label>
+    <input @bind="Sho.Brand" />
+    <label>Model</label>
+    <input @bind="Sho.Model" />
+    <label>Price</label>
+    <input @bind="Sho.Price" type="number" />
+    <button @onclick="Create_S">Add</button>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Shoes Id</td>
+            <td>Brand</td>
+            <td>Model</td>
+            <td>Price</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+    @foreach (var c in Shoe_List)
+    {
+        <tbody>
+            <tr>
+                <td>@c.Shoes_Id</td>
+                <td>@c.Brand</td>
+                <td>@c.Model</td>
+                <td>@c.Price</td>
+
+                <td>
+                    <button @onclick="() => Delete_S(c.Shoes_Id)" class="btn-danger">Delete</button>
+
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#@($"Update_Sh{c.Shoes_Id}")">
+                        Edit
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="@($"Update_Sh{c.Shoes_Id}")" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Update</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label>Brand</label>
+                                    <input @bind="c.Brand" /> <br />
+                                    <label>Model</label>
+                                    <input @bind="c.Model" /> <br />
+                                    <label>Price</label>
+                                    <input @bind="c.Price" type="number" /> <br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" @onclick="()=>Update_S(c.Shoes_Id,c.Brand,c.Model,c.Price)" data-bs-dismiss="modal">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    }
+
+</table>
+@code {
+    public Conn DBCon = new Conn();
+    public string Search = "";
+
+    [Parameter]
+    public int Shoes_Id { get; set; }
+    [Parameter]
+    public string Brand { get; set; }
+    [Parameter]
+    public string Model { get; set; }
+    [Parameter]
+    public int Price { get; set; }
+    public class Shoe
+    {
+        public int Shoes_Id;
+        public string Brand;
+        public string Model;
+        public int Price;
+    }
+    public void Create_S()
+    {
+
+        DBCon.connection.Query("Create_Sh", new
+        {
+            @Brand = Sho.Brand,
+            @Model = Sho.Model,
+            @Price = Sho.Price
+        }, commandType: CommandType.StoredProcedure);
+        Sho = new Shoe();
+        Read_S();
+    }
+    public void Update_S(int Shoes_Id, string Brand, string Model, int Price)
+    {
+
+        DBCon.connection.Query("Update_Sh", new
+        {
+            @Shoes_Id = Shoes_Id,
+            @Brand = Brand,
+            @Model = Model,
+            @Price = Price
+        }, commandType: CommandType.StoredProcedure);
+        Sho = new Shoe();
+        Read_S();
+    }
+
+    public void Delete_S(int Shoes_Id)
+    {
+
+        DBCon.connection.Query("Delete_Sh", new
+        {
+            @Shoes_Id = Shoes_Id
+        }, commandType: CommandType.StoredProcedure);
+        Read_S();
+    }
+
+    public void Read_S()
+    {
+        Shoe_List = DBCon.connection.Query<Shoe>
+        ("Read_Sh", new
+        {
+            @Brand = $"%{Search}",
+            @Model = $"%{Search}",
+            @Price = $"{Search.ToString()}"
+        }, commandType: CommandType.StoredProcedure);
+    }
+
+    public Shoe Sho = new Shoe();
+    public IEnumerable<Shoe> Shoe_List;
+    protected override void OnInitialized()
+    {
+        Read_S();
+    }
+}

@@ -1,0 +1,52 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Authorization
+
+@attribute [Authorize(Roles = "User,Admin")]
+@rendermode InteractiveServer
+@inject IJSRuntime JSRuntime
+<h1>Swiper Example</h1>
+@* <SwiperComponent /> *@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <h3>Slide 1</h3>
+            <img src="pic1.jpg" alt="Slide 1" style="width:500px;height:500px;" />
+        </div>
+        <div class="swiper-slide">
+            <h3>Slide 2</h3>
+            <img src="pic2.jpg" alt="Slide 2" style="width:500px;height:500px;" />
+        </div>
+        <div class="swiper-slide">
+            <h3>Slide 3</h3>
+            <img src="pic3.jpg" alt="Slide 3" style="width:500px;height:500px;" />
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+
+@code {
+    private IJSObjectReference? _module;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JSRuntime.InvokeAsync<IJSObjectReference>(
+                "import", "./swiper-init.js");
+            await _module.InvokeVoidAsync("initSwiper");
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module != null)
+        {
+            await _module.DisposeAsync();
+        }
+    }
+}

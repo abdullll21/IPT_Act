@@ -1,0 +1,9 @@
+﻿@page "/iso"
+@using Microsoft.AspNetCore.Authorization
+
+@attribute [Authorize(Roles = "User,Admin")]
+
+<div class="my-card">
+    <h3>This is a card</h3>
+    <p>With scoped styles using isolated CSS.</p>
+</div>

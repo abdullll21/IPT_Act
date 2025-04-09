@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\EXP\\ResmaActivity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|c:\\exp\\resmaactivity\\resmaactivity\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|solutionrelative:resmaactivity\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|c:\\exp\\resmaactivity\\resmaactivity\\components\\pages\\shoes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|solutionrelative:resmaactivity\\components\\pages\\shoes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|c:\\exp\\resmaactivity\\resmaactivity\\components\\pages\\blazorcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|solutionrelative:resmaactivity\\components\\pages\\blazorcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|c:\\exp\\resmaactivity\\resmaactivity\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|solutionrelative:resmaactivity\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|c:\\exp\\resmaactivity\\resmaactivity\\components\\pages\\isolated_css.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|solutionrelative:resmaactivity\\components\\pages\\isolated_css.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|c:\\exp\\resmaactivity\\resmaactivity\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7202992E-A951-4E98-A7E2-165848703E5B}|ResmaActivity\\ResmaActivity.csproj|solutionrelative:resmaactivity\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ResmaActivity\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ResmaActivity\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T14:21:39.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Isolated_Css.razor",
+              "DocumentMoniker": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\Isolated_Css.razor",
+              "RelativeDocumentMoniker": "ResmaActivity\\Components\\Pages\\Isolated_Css.razor",
+              "ToolTip": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\Isolated_Css.razor",
+              "RelativeToolTip": "ResmaActivity\\Components\\Pages\\Isolated_Css.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T14:12:58.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ResmaActivity\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ResmaActivity\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T14:12:37.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlazorComponent.razor",
+              "DocumentMoniker": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\BlazorComponent.razor",
+              "RelativeDocumentMoniker": "ResmaActivity\\Components\\Pages\\BlazorComponent.razor",
+              "ToolTip": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\BlazorComponent.razor",
+              "RelativeToolTip": "ResmaActivity\\Components\\Pages\\BlazorComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T14:11:58.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shoes.razor",
+              "DocumentMoniker": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\Shoes.razor",
+              "RelativeDocumentMoniker": "ResmaActivity\\Components\\Pages\\Shoes.razor",
+              "ToolTip": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Pages\\Shoes.razor",
+              "RelativeToolTip": "ResmaActivity\\Components\\Pages\\Shoes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T14:11:02.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ResmaActivity\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\EXP\\ResmaActivity\\ResmaActivity\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ResmaActivity\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwC4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T14:08:35.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

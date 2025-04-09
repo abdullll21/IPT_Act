@@ -1,0 +1,12 @@
+
+.my-card[b-2yvaevp55u] {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: aqua;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+    .my-card:hover[b-2yvaevp55u] {
+        transform: scale(1.02);
+    }
